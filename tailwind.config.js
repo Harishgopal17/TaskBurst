@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        "wooden-background": "url('wooden-background.png')",
+        "wooden-background": "url('src/assets/wooden-background.png')",
       },
     },
   },

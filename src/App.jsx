@@ -36,7 +36,10 @@ function App() {
 
   return (
     <>
-      <div className="bg-wooden-background bg-cover opacity-95">
+      <div
+        style={{ backgroundImage: "url('./src/assets/wooden-background.png')" }}
+        className="bg-cover opacity-95"
+      >
         <div className="max-container">
           <div className="flex flex-col h-screen gap-12">
             <h3 className="text-4xl font-bold self-center pt-16">Task Burst</h3>
