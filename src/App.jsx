@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import TodoCard from "./TodoCard";
+import woodenBG from "./assets/wooden-background.png";
 
 function App() {
   const [tasks, setTasks] = useState([]);
@@ -37,7 +38,7 @@ function App() {
   return (
     <>
       <div
-        style={{ backgroundImage: "url('./assets/wooden-background.png')" }}
+        style={{ backgroundImage: `url(${woodenBG})` }}
         className="bg-cover opacity-95"
       >
         <div className="max-container">
