@@ -37,7 +37,7 @@ function App() {
   return (
     <>
       <div
-        style={{ backgroundImage: "url('./src/assets/wooden-background.png')" }}
+        style={{ backgroundImage: "url('./assets/wooden-background.png')" }}
         className="bg-cover opacity-95"
       >
         <div className="max-container">
