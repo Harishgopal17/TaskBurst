@@ -20,6 +20,7 @@ function App() {
     if (tasks.length >= 5) {
       alert("You can only add up to five tasks.");
       setNewTask("");
+      setLength(140);
       return;
     }
 
